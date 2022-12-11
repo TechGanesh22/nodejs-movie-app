@@ -1,0 +1,13 @@
+.card-title{
+    font-family: sans-serif;
+}
+.card{
+    margin-left: 8rem;
+}
+.card-img{
+    height: 24rem;
+}
+.searcheading{
+   margin: 4rem 0 2rem 8rem;
+   font-weight: bold;
+}
