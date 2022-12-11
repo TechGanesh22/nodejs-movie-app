@@ -23,7 +23,7 @@ app.get("/result", (req, res) => {
     }
   );
 });
-app.get("/search", (req, res) => {
+app.get("/", (req, res) => {
   res.render("search");
 });
 app.listen(3000, () => {
