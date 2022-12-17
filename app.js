@@ -5,8 +5,8 @@ const request = require("request");
 
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
-
-app.use(express.static("public"));
+app.use(express.static(path.join(__dirname,"public")));
+// app.use(express.static("public"));
 
 app.get("/result", (req, res) => {
   let query = req.query.search; //here we get the value we search
